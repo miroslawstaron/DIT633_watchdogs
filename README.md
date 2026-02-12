@@ -20,6 +20,8 @@ This project contains two demonstrations:
 | `multithreaded_watchdog.c` | Multi-threaded watchdog with per-thread monitoring |
 | `watchdog.h` | Shared header with watchdog API declarations |
 | `Makefile` | Build configuration |
+| `arduino_watchdog_simple`| Basic implementation of a watchdog in arduino -- setting the WDT library|
+| `arduino_watchdog_behavioral`| Implementation of a behavioral watchdog -- if the button is not pressed for 3 seconds, then the board resets |
 
 ## Building
 
@@ -49,3 +51,4 @@ Key parameters (defined as `#define` constants in the source files):
 ## Author
 
 Miroslaw Staron — University of Gothenburg, 2026
+
